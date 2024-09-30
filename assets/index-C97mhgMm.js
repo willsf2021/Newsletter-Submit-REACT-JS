@@ -119,9 +119,9 @@ Error generating stack: `+o.message+`
     padding-left: 16px;
     width: 100%;
     margin-left: -32px;
-  }
-  p {
-    width: 400px;
+    p {
+      width: 400px;
+    }
   }
 `,bo="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='21'%20height='21'%20viewBox='0%200%2021%2021'%3e%3cg%20fill='none'%3e%3ccircle%20cx='10.5'%20cy='10.5'%20r='10.5'%20fill='%23FF6155'/%3e%3cpath%20stroke='%23FFF'%20stroke-width='2'%20d='M6%2011.381%208.735%2014%2015%208'/%3e%3c/g%3e%3c/svg%3e",Xm=()=>I.jsxs(Ym,{children:[I.jsxs(qo,{children:[I.jsx("img",{src:bo,alt:""}),I.jsx(xl,{content:"Product discovery and building what matters"})]}),I.jsxs(qo,{children:[I.jsx("img",{src:bo,alt:""}),I.jsx(xl,{content:"Measuring to ensure updates are a success"})]}),I.jsxs(qo,{children:[I.jsx("img",{src:bo,alt:""}),I.jsx(xl,{content:"And much more!"})]})]}),Zm=Se.form`
   display: flex;
