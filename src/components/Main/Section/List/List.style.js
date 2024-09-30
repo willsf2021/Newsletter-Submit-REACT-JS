@@ -24,8 +24,8 @@ export const StyledItemList = styled.li`
     padding-left: 16px;
     width: 100%;
     margin-left: -32px;
-  }
-  p {
-    width: 400px;
+    p {
+      width: 400px;
+    }
   }
 `;
