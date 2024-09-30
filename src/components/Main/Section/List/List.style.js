@@ -1,9 +1,7 @@
 import styled from "styled-components";
-import IconList from "../../../../assets/images/icon-list.svg";
 
 export const StyledList = styled.ul`
-  list-style-image: url(${IconList});
-  list-style-position: relative;
+  list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,20 +9,23 @@ export const StyledList = styled.ul`
   row-gap: 10px;
   width: fit-content;
   @media (min-width: 768px) {
-    padding-left: 24px;
+    /* padding-left: 24px; */
     row-gap: 12px;
-}
+  }
 `;
 
 export const StyledItemList = styled.li`
+  display: flex;
+  align-items: center;
+  margin-left: -32px;
+  column-gap: 16px;
   width: 90%;
-  padding-left: 8px;
-  padding-left: 8px;
   @media (min-width: 768px) {
+    padding-left: 16px;
     width: 100%;
+    margin-left: -32px;
   }
   p {
-    position: relative;
-    top: -5px;
+    width: 400px;
   }
 `;
