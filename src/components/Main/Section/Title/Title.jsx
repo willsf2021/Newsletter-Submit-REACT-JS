@@ -1,5 +1,5 @@
 import { StyledTitle } from "./Title.style";
 
-export const Title = () => {
-  return <StyledTitle>Stay update!</StyledTitle>;
+export const Title = ({ title }) => {
+  return <StyledTitle>{title}</StyledTitle>;
 };

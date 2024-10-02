@@ -2,6 +2,7 @@ export const theme = {
   primary: {
     gradient1: "hsl(348, 99%, 66%)",
     gradient2: "hsl(4, 100%, 67%)",
+    gradient2SOpacity: "hsla(4, 100%, 67%, 15%)",
     gradient2Shadow: "hsla(4, 100%, 67%, 50%)",
   },
   neutral: {

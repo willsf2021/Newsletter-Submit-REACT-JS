@@ -7,7 +7,7 @@ import { Form } from "./Form/Form";
 export const Section = () => {
   return (
     <StyledSection>
-      <Title />
+      <Title title="Stay Update!" />
       <Paragraph content="Join 60,000+ product managers receiving monthly updates on:" />
       <List />
       <Form />
